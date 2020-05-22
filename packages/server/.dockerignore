@@ -1,0 +1,8 @@
+node_modules
+test
+coverage
+.vscode
+.idea
+.nyc_output
+*.log
+scripts

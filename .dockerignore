@@ -1,0 +1,13 @@
+*
+!yarn.lock
+!package.json
+!lerna.json
+!packages/*/package.json
+!packages/*/tsconfig.json
+!packages/*/.env.example
+!*.env.example
+
+# Server includes
+!packages/server/prisma
+!packages/server/api
+

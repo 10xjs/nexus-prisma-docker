@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  server:
+    build:
+      target: server
+      context: .
+    container_name: nexus-prisma-docker
+    restart: unless-stopped
+    init: true
+    ports:
+    - 4000:4000

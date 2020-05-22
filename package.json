@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "nexus-prisma-docker",
+  "version": "0.0.0",
+  "scripts": {
+    "lint": "lerna run lint --stream --no-bail",
+    "test": "lerna run test --stream --no-bail"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^7.0.0-alpha.1",
+    "lerna": "^3.20.2",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.8.1",
+    "ts-node-dev": "1.0.0-pre.44"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

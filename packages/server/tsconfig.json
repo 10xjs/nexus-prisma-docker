@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "ES2016",
+    "module": "commonjs",
+    "strict": true,
+    "rootDir": "api",
+    "allowJs": true,
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "types": [
+      "@nexus/schema",
+      "@prisma/client",
+      "@prisma/sdk",
+      "@types/typegen-nexus",
+      "@types/typegen-nexus-backing-types",
+      "@types/typegen-nexus-context",
+      "@types/typegen-nexus-prisma",
+      "nexus-plugin-prisma",
+      "nexus-prisma",
+      "jsonwebtoken",
+      "nexus/dist",
+      "jest",
+      "cors"
+    ]
+  },
+  "include": [
+    "api", "node_modules/.prisma", "prisma"
+  ]
+}
